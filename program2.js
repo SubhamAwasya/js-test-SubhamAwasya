@@ -19,9 +19,8 @@ const decodeTheRing = function (s, p) {
 
     if (isPresentAtStart && isPresentAtEnd) {
       return true;
-    }
-    else{
-      result false
+    } else {
+      result = false;
     }
   }
 
