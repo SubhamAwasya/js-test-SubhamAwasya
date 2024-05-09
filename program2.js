@@ -2,7 +2,7 @@ const decodeTheRing = function (s, p) {
   // write your code here
 
   let sl = s.length
-  let pl = pp.length
+  let pl = p.length
   while(){
 
   }
