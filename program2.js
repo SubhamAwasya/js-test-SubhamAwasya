@@ -1,7 +1,6 @@
 const decodeTheRing = function (s, p) {
+  // write your code here
+  return true;
+};
 
-    // write your code here
-
-  };
-  
-  module.exports = decodeTheRing;
+module.exports = decodeTheRing;
