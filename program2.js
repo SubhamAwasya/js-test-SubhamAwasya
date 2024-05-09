@@ -20,9 +20,6 @@ const decodeTheRing = function (s, p) {
     if (isPresentAtStart && isPresentAtEnd) {
       return true;
     }
-
-    console.log("======================" + isPresentAtStart);
-    console.log("======================" + isPresentAtEnd);
   }
 
   if (p.includes("?")) {
