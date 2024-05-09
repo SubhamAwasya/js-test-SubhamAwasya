@@ -14,7 +14,7 @@ const decodeTheRing = function (s, p) {
 
   if (p.includes("*")) {
     let str = p.split("*");
-    const isPresent = str.lastIndexOf(str[i]) === str.length - 3;
+    const isPresent = str.lastIndexOf(str[0]) === str.length - 3;
     console.log(str);
   }
 
