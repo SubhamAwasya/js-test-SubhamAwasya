@@ -11,7 +11,7 @@ const decodeTheRing = function (s, p) {
 
   let result = true;
 
-  for (let i = 0; i < array.length; i++) {
+  for (let i = 0; i < s.length; i++) {
     const element = array[i];
     
   }
