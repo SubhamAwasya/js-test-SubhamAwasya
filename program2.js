@@ -17,7 +17,9 @@ const decodeTheRing = function (s, p) {
     }
   }
 
-  i
+  if (p) {
+    
+  }
 
 
 
