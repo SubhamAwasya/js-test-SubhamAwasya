@@ -6,6 +6,7 @@ const decodeTheRing = function (s, p) {
 
   while (sl > 0 && pl > 0) {
     sl--;
+    pl--;
   }
 
   console.log("======" + s[1]);
