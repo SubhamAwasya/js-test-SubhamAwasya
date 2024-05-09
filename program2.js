@@ -14,7 +14,7 @@ const decodeTheRing = function (s, p) {
 
   if (p.includes("*")) {
     let str = p.split("*");
-    const isPresentlength;
+    const isPresent = "".startsWith;
 
     console.log("======================" + isPresent);
   }
