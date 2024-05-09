@@ -40,7 +40,7 @@ const decodeTheRing = function (s, p) {
     }
   }
 
-  return result;
+  return false;
 };
 
 module.exports = decodeTheRing;
