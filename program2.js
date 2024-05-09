@@ -18,7 +18,7 @@ const decodeTheRing = function (s, p) {
     }
   }
 
-  return true;
+  return result;
 };
 
 module.exports = decodeTheRing;
