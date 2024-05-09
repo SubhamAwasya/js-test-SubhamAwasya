@@ -4,8 +4,6 @@ const decodeTheRing = function (s, p) {
   let sl = s.length;
   let pl = p.length;
 
-  let result = true;
-
   if (sl != pl) {
     if (!p.includes("*")) {
       return false;
