@@ -7,6 +7,8 @@ const decodeTheRing = function (s, p) {
   let i = 0;
   let j = 0;
 
+  let k = 0
+
   let result = true;
 
   while (sl > 0) {
@@ -15,7 +17,7 @@ const decodeTheRing = function (s, p) {
       j++;
     } else if (p[i] == "*") {
       while(){
-        
+
       }
 
     } else if (p[i] == "?") {
