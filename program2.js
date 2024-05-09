@@ -11,11 +11,8 @@ const decodeTheRing = function (s, p) {
 
   let result = true;
 
-  if (sl == pl) {
-    
+  if (sl != pl) {
   }
-
-
 
   for (let i = 0; i < s.length; i++) {
     if (s[i] == p[i]) {
@@ -28,7 +25,6 @@ const decodeTheRing = function (s, p) {
         k++;
       }
     } else if (p[i] == "?") {
-
     }
   }
 
