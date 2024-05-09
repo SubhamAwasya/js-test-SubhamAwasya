@@ -4,6 +4,10 @@ const decodeTheRing = function (s, p) {
   let sl = s.length;
   let pl = p.length;
 
+  while(){
+    
+  }
+
   console.log("======" + s[1]);
 };
 
