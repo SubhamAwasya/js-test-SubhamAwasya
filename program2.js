@@ -13,6 +13,9 @@ const decodeTheRing = function (s, p) {
       j++;
     } else if (p[i] == "*") {
     }
+    else if(){
+      
+    }
   }
   console.log("======" + s[1]);
 };
