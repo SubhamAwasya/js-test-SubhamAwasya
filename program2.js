@@ -8,8 +8,8 @@ const decodeTheRing = function (s, p) {
     sl--;
     pl--;
   }
-
   console.log("======" + s[1]);
+
 };
 
 module.exports = decodeTheRing;
