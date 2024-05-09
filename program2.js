@@ -24,7 +24,9 @@ const decodeTheRing = function (s, p) {
 
   if (p.includes("?")) {
    if (s.length == p.length) {
-      
+    
+   }else{
+    return false
    }
   }
 
