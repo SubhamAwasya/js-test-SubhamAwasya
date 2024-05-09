@@ -13,8 +13,8 @@ const decodeTheRing = function (s, p) {
       j++;
     } else if (p[i] == "*") {
     }
-    else if(){
-      
+    else if(p[i] == ''){
+
     }
   }
   console.log("======" + s[1]);
