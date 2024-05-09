@@ -7,7 +7,7 @@ const decodeTheRing = function (s, p) {
   let i = 0;
   let j = 0;
 
-  while (sl > 0 && pl > 0) {
+  while (sl > 0) {
     if (sl[i]) {
       sl--;
       pl--;
