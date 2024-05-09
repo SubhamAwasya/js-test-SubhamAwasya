@@ -17,7 +17,9 @@ const decodeTheRing = function (s, p) {
     const isPresentAtStart = s.startsWith(str[0]);
     const isPresentAtEnd = s.endsWith(str[1]);
 
-    if(isPresentAtEnd)
+    if (isPresentAtStart && isPresentAtEnd) {
+      return true;
+    }
 
     console.log("======================" + isPresentAtStart);
     console.log("======================" + isPresentAtEnd);
