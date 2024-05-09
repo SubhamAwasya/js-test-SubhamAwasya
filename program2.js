@@ -22,6 +22,7 @@ const decodeTheRing = function (s, p) {
         k++;
       }
     } else if (p[i] == "?") {
+      
     }
   }
 
