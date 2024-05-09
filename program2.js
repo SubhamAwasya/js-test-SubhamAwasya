@@ -18,6 +18,7 @@ const decodeTheRing = function (s, p) {
   }
 
   if (p.includes("*")) {
+    
   }
   if (p.includes("?")) {
   }
