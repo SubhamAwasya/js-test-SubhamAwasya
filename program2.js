@@ -12,6 +12,7 @@ const decodeTheRing = function (s, p) {
   let result = true;
 
   if (sl != pl) {
+    if()
   }
 
   for (let i = 0; i < s.length; i++) {
