@@ -3,4 +3,6 @@ const getTotalIsles = function (grid) {
   console.log("test");
 };
 
+getTotalIsles();
+
 module.exports = getTotalIsles;
