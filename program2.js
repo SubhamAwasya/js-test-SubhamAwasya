@@ -12,21 +12,12 @@ const decodeTheRing = function (s, p) {
   let result = true;
 
   for (let i = 0; i < s.length; i++) {
-    const element = array[i];
+
     
   }
 
   while (sl > 0) {
-    if (s[i] == p[i]) {
-      i++;
-      j++;
-    } else if (p[i] == "*") {
-      k = i + 1;
-      while () {
-
-      }
-    } else if (p[i] == "?") {
-    }
+    
   }
 
   return result;
