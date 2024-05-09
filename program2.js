@@ -23,11 +23,17 @@ const decodeTheRing = function (s, p) {
   }
 
   if (p.includes("?")) {
-   if (s.length == p.length) {
-    
-   }else{
-    return false
-   }
+    if (s.length == p.length) {
+      let str = p.split("*");
+      const isPresentAtStart = s.startsWith(str[0]);
+      const isPresentAtEnd = s.endsWith(str[1]);
+
+      if (isPresentAtStart && isPresentAtEnd) {
+        return true;
+      }
+    } else {
+      return false;
+    }
   }
 
   return result;
