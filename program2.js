@@ -30,6 +30,8 @@ const decodeTheRing = function (s, p) {
 
       if (isPresentAtStart && isPresentAtEnd) {
         return true;
+      } else {
+        return false;
       }
     } else {
       return false;
