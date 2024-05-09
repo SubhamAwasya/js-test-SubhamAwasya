@@ -12,6 +12,9 @@ const decodeTheRing = function (s, p) {
       i++;
       j++;
     }
+    else if(){
+      
+    }
   }
   console.log("======" + s[1]);
 };
