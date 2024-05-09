@@ -1,10 +1,6 @@
 const getTotalIsles = function (grid) {
+  // write your code here
+  console.log("test");
+};
 
-
-    // write your code here
-
-  };
-  
-  module.exports = getTotalIsles;
-
-
+module.exports = getTotalIsles;
