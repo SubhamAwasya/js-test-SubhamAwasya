@@ -17,7 +17,8 @@ const decodeTheRing = function (s, p) {
     } else if (p[i] == "?") {
     }
   }
-  console.log("======" + s[1]);
+
+  return false;
 };
 
 module.exports = decodeTheRing;
