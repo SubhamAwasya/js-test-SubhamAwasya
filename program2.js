@@ -9,7 +9,8 @@ const decodeTheRing = function (s, p) {
 
   while (sl > 0) {
     if (s[i] == p[i]) {
-     
+      i++;
+      j++;
     }
   }
   console.log("======" + s[1]);
