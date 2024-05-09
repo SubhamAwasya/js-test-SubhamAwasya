@@ -1,7 +1,9 @@
 const decodeTheRing = function (s, p) {
   // write your code here
+  
+  while(){
 
-  while()
+  }
 };
 
 module.exports = decodeTheRing;
