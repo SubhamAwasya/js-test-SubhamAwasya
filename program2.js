@@ -14,6 +14,7 @@ const decodeTheRing = function (s, p) {
       i++;
       j++;
     } else if (p[i] == "*") {
+      
     } else if (p[i] == "?") {
     }
   }
